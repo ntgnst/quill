@@ -9,6 +9,7 @@ import {
 import Indent from './formats/indent';
 
 import Blockquote from './formats/blockquote';
+import Test from './formats/test';
 import Header from './formats/header';
 import List from './formats/list';
 
@@ -76,6 +77,7 @@ Quill.register(
     'formats/size': SizeClass,
 
     'formats/blockquote': Blockquote,
+    'formats/test': Test,
     'formats/code-block': CodeBlock,
     'formats/header': Header,
     'formats/list': List,
