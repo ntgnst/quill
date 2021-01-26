@@ -872,7 +872,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _blots_block__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../blots/block */ \"./blots/block.js\");\n\n\nclass Test extends _blots_block__WEBPACK_IMPORTED_MODULE_0__[\"default\"] {}\n\nTest.blotName = 'test';\nTest.tagName = 'test';\n/* harmony default export */ __webpack_exports__[\"default\"] = (Test);\n\n//# sourceURL=webpack://Quill/./formats/test.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _blots_block__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../blots/block */ \"./blots/block.js\");\n\n\nclass Test extends _blots_block__WEBPACK_IMPORTED_MODULE_0__[\"default\"] {}\n\nTest.blotName = 'test';\nTest.tagName = ['STRONG', 'B'];\n/* harmony default export */ __webpack_exports__[\"default\"] = (Test);\n\n//# sourceURL=webpack://Quill/./formats/test.js?");
 
 /***/ }),
 
